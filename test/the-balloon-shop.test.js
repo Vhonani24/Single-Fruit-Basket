@@ -1,5 +1,5 @@
 let assert = require("assert");
-let greet = require("../the-balloon-shop");
+let the_balloon = require("../the-balloon-shop");
 const pg = require("pg");
 const Pool = pg.Pool;
 
@@ -8,6 +8,7 @@ const connectionString = process.env.DATABASE_URL || 'postgresql://localhost:543
 const pool = new Pool({
     connectionString
 });
+
 
 describe('The balloon function', function(){
 
