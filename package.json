@@ -4,7 +4,7 @@
   "description": "",
   "main": "the-balloon-shop.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/codex-academy/the-balloon-shop/issues"
   },
-  "homepage": "https://github.com/codex-academy/the-balloon-shop#readme"
+  "homepage": "https://github.com/codex-academy/the-balloon-shop#readme",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
 }

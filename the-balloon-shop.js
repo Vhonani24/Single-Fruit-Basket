@@ -1,4 +1,10 @@
-module.exports = (pool) => {
+module.exports = (pool, validColors) => {
+
+
+    // insert valid colors into the database here
+
+    
+
 
     function getValidColors() {
 
@@ -16,7 +22,7 @@ module.exports = (pool) => {
 
     }
      
-    function AllColors () {
+    function allColors () {
 
     }
 
@@ -25,6 +31,6 @@ module.exports = (pool) => {
         requestColor,
         colorCount,
         getInvalidColors,
-        AllColors
+        allColors
     }
 }
