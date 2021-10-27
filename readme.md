@@ -6,6 +6,10 @@ Write a factory function that can help them to count the most popular color of b
 
 *We have created the tests for you and they are failing so you are required to fix them.*
 
+*Fork* and *clone* this repo.
+
+To run the tests use: `npm test`
+
 **What you are required to do :**
 
 - Create 2 tables in postgresql
