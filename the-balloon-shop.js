@@ -1,9 +1,6 @@
 module.exports = (pool, validColors) => {
 
 
-    // insert valid colors into the database here
-    var valid_color = ['Orange','Purple','Lime'];
-
     async function getValidColors() {
 
         const result = await pool.query("select * from valid_color")
