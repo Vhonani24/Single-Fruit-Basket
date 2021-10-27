@@ -5,6 +5,6 @@ env:
   - DATABASE_URL=postgresql://postgres@localhost:5432/my_balloon_tests
 before_script:
   - psql -c 'create database my_balloon_tests;' -U postgres
-  - psql -U postgres -d my_balloon_tests -a -f balloon.sql
+  - psql -U postgres -d my_balloon_tests -a -f sql/balloon.sql
 services:
   - postgresql
