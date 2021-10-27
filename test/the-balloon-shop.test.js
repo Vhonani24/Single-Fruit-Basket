@@ -1,5 +1,5 @@
 let assert = require("assert");
-let greet = require("../the-balloon-shop");
+let the_balloon = require("../the-balloon-shop");
 const pg = require("pg");
 const Pool = pg.Pool;
 
