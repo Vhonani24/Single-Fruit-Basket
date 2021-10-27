@@ -22,7 +22,7 @@ describe('The balloon function', function () {
 
         const theBalloonShop = TheBalloonShop(pool, ['Orange', 'Purple', 'Lime']);
     
-        assert.equal(['Orange', 'Purple', 'Lime'], theBalloonShop.getValidColors());
+        assert.deepEqual(['Orange', 'Purple', 'Lime'], await theBalloonShop.getValidColors());
 
     });
 
