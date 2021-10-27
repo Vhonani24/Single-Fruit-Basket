@@ -19,5 +19,8 @@
   "homepage": "https://github.com/codex-academy/the-balloon-shop#readme",
   "devDependencies": {
     "mocha": "^9.1.3"
+  },
+  "dependencies": {
+    "pg": "^8.7.1"
   }
 }
