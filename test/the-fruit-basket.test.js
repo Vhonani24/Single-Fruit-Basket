@@ -15,7 +15,7 @@ describe('The fruit_basket function', function () {
     beforeEach(async function () {
         // clean the tables before each test run
         await pool.query("delete from fruit_basket");
-        // add valid colors
+        
     });
 
     it('should create a new fruit basket for a given fruit type, qty & fruit price', async function () {

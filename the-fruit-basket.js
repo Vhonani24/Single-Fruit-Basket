@@ -1,4 +1,4 @@
-module.exports = (pool) => {
+module.exports = function FruitBasket(pool) {
 
 
     async function findAllFruitBaskets(fruit) {
