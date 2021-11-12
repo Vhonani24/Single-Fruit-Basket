@@ -19,12 +19,9 @@ module.exports = function FruitBasket(pool) {
         return result.rows;
    }
 
-
-
     async function createFruitBasket(fruit, quantity, price) {
 
-        var result = await pool.query('select * from fruit_basket');
-
+        
         await pool.query("INSERT INTO fruit_basket(fruit_name,quantity,price) values($1,$2,$3)", [fruit, quantity, price])
 
     }

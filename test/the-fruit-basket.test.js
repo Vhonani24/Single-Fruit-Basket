@@ -87,9 +87,7 @@ describe('The fruit_basket function', function () {
         await testFruitBasket.createFruitBasket('Pears', 5, 3.20);
         await testFruitBasket.createFruitBasket('Pears', 4, 3.20);
 
-        //console.log(await testFruitBasket.showSumOfTotalFruit_Baskets('Pears'));
-
-
+        
         assert.deepEqual([{ sum: 14 } ], await testFruitBasket.showSumOfTotalFruit_Baskets('Pears'));
     });
     
