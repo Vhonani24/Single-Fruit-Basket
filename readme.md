@@ -1,1 +1,1 @@
-[![Build Status](https://app.travis-ci.com/Vhonani24/Fruit-basket.svg?branch=main)](https://app.travis-ci.com/Vhonani24/Fruit-basket)
+[![Build Status](https://app.travis-ci.com/Vhonani24/Single-Fruit-Basket.svg?branch=main)](https://app.travis-ci.com/Vhonani24/Single-Fruit-Basket)
